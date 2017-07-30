@@ -26,8 +26,7 @@ int main()
 
 int prim(int x) {
    
-	int divizor;
-	for (divizor = 2; divizor <= x / 2; divizor++) {
+	for (int divizor = 2; divizor <= x / 2; divizor++) {
 		if (x % divizor == 0) return 0;
 	}
 
